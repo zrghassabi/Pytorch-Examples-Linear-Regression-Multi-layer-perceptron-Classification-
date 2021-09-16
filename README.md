@@ -8,4 +8,4 @@ Example2= Linear Regression using Tensors (run on GPU)
 
 Example 3= Linear Regression using nn.sequential model (no need to define parameters a and b in y=a+b*x)
 
-Example 3= Linear Regression using nn.module model
+Example 4= Linear Regression using nn.module model
