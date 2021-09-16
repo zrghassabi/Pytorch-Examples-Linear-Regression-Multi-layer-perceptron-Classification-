@@ -7,3 +7,4 @@ Example2= Linear Regression using Tensors (run on GPU)
 
 Example 3= Linear Regression using nn.sequential model
 
+Example 3= Linear Regression using nn.module model
