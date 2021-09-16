@@ -10,11 +10,16 @@ Example 3= Linear Regression using nn.sequential model using torch.nn.linear(1,1
 
 Example 4= Linear Regression using nn.module model (Define a Class with _init_ ( includes nn.linear(1,1) and forward sections (returns nn.linear(1,1))
 
-Example 5= 
+Example 5= Linear Regression using MLP (Multi Layer Perceptron)
 
-   5-1) Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
+      Notes: using sklearn.datasets import make_blobs to create data
+      
+
+Example 6= 
+
+   6-1) Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
    
-   5_2) creating Dataset class ( it includes __init__(self), __len__(self), __get_item__(self, index), using _get_item, you load big dataset on demand) to use in Dataloader . Detaloader will create mini-batches of Data, will shuffle data. 
+   6_2) creating Dataset class ( it includes __init__(self), __len__(self), __get_item__(self, index), using _get_item, you load big dataset on demand) to use in Dataloader . Detaloader will create mini-batches of Data, will shuffle data. 
 
-   5_3) Building Dataloader for test data and evaluation of model with test data
+   6_3) Building Dataloader for test data and evaluation of model with test data
 
