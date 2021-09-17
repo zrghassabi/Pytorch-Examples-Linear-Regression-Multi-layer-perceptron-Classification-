@@ -17,7 +17,7 @@ Example 5= Linear Regression using MLP (Multi Layer Perceptron)
       Notes: 
       -Number of Hidden neurons are 10, dimention of input is 3 and there are two classes.
       -using sklearn.datasets import make_blobs to create data
-      - 60% od Data are Training set, 15% is validation and 25% is Test data
+      - 60% of Data are Training set, 15% is validation and 25% is Test data
       -use cross-entropy as loss function 
       -use nn.sequentional to define model and use  nn.Linear and then nn.Relu (to define activation function) to build layers.
       -compute Accuracy = num of correct classification/ total num of samples for Train, Validation and Test Data
