@@ -27,6 +27,11 @@ Example 5= Linear Regression using MLP (Multi Layer Perceptron)
       
      
       
+Example 7= MLP for classification
+
+Notes: 
+-Use Dataset https://www.apispreadsheets.com/datasets/119
+
 
 Example 6= 
 
