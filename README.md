@@ -27,10 +27,13 @@ Example 5= MLP (Multi Layer Perceptron)
       
      
       
-Example 7= MLP for classification
+Example 7= MLP which classifies each Voice sample as Man or Woman 's Voice
 
        Notes: 
         -Use Dataset https://www.apispreadsheets.com/datasets/119
+        -Number of samples=3168
+        -Each sample has 21 Attributes or features
+        
 
 
 Example 6= 
