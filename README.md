@@ -10,7 +10,7 @@ Example 3= Linear Regression using nn.sequential model using torch.nn.linear(1,1
 
 Example 4= Linear Regression using nn.module model (Define a Class with _init_ ( includes nn.linear(1,1) and forward sections (returns nn.linear(1,1))
 
-Example 5= Linear Regression using MLP (Multi Layer Perceptron)
+Example 5= MLP (Multi Layer Perceptron)
 
  I wrote this code in Pycharm. Open new project, new python file and run the code line be line. Use breakpoints in training step and check if gradients are not zero after each step. In big deep Neural networks, you should check if gradients are not zero at first steps.
 
