@@ -12,9 +12,14 @@ Example 4= Linear Regression using nn.module model (Define a Class with _init_ (
 
 Example 5= Linear Regression using MLP (Multi Layer Perceptron)
 
-      Notes: using sklearn.datasets import make_blobs to create data
+ I wrote this code in Pycharm. Open new project, new python file and run the code line be line. Use breakpoints in training step and check if gradients are not zero after each step. In big deep Neural networks, you should check if gradients are not zero at first steps.
+
+      Notes: 
+      -Number of Hidden neurons are 10, dimention of input is 3 and there are two classess.
+      -using sklearn.datasets import make_blobs to create data
+      -compute Accuracy = num of correct classification/ total num of samples
       
-      I wrote this code in Pycharm. Open new project, new python file and run the code line be line. Use breakpoints in training step and check if gradients are not zero after each step. In big deep Neural networks, you should check if gradients are not zero at first steps.
+     
       
 
 Example 6= 
