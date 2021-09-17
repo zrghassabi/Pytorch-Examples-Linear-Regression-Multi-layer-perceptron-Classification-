@@ -12,7 +12,7 @@ Example 4= Linear Regression using nn.module model (Define a Class with _init_ (
 
 Example 5= MLP (Multi Layer Perceptron)
 
- I wrote this code in Pycharm. Open new project, new python file and run the code line be line. Use breakpoints in training step and check if gradients are not zero after each step. In big deep Neural networks, you should check if gradients are not zero at first steps.
+ You can write this code in Pycharm to track code line by line. Open new project, new python file and run the code line be line. Use breakpoints in training step and check if gradients are not zero after each step. In big deep Neural networks, you should check if gradients are not zero at first steps.
 
       Notes: 
       -Number of Hidden neurons are 10, dimention of input is 3 and there are two classes.
