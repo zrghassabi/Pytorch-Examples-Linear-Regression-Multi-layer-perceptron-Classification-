@@ -21,7 +21,7 @@ Example 5= Linear Regression using MLP (Multi Layer Perceptron)
       -use cross-entropy as loss function 
       -use nn.sequentional to define model and use  nn.Linear and then nn.Relu (to define activation function) to build layers.
       -compute Accuracy = num of correct classification/ total num of samples for Train, Validation and Test Data
-      -pay attention why Accuracy for Test Data was computed after Loop for Training
+      -pay attention why Accuracy for Test Data was computed after Loop of Training
       
       
       
