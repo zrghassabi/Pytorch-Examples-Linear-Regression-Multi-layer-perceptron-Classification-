@@ -36,15 +36,3 @@ Example 6= MLP which classifies each Voice sample as Man or Woman 's Voice
         -using 'loss = nn.BCELoss()' which Creates a criterion that measures the Binary Cross Entropy between the target and the output
         - Activation function of output neuron is sigmoid, so yp is between 0 and 1, to find number of correct samples, use sum(round(yp)==y_train) instead of sum(arg.max(yp)==y_train in previous example)
  
- 
-Example 7= 
-
-   7-1) Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
-   
-   7_2) creating Dataset class ( it includes __init__(self), __len__(self), __get_item__(self, index), using _get_item, you load big dataset on demand) to use in Dataloader . Detaloader will create mini-batches of Data, will shuffle data. 
-
-   7_3) Building Dataloader for test data and evaluation of model with test data
-
-
-    
-
