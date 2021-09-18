@@ -34,6 +34,7 @@ Example 7= MLP which classifies each Voice sample as Man or Woman 's Voice
         -Number of samples=3168
         -Each sample has 21 Attributes or features
         -using 'from sklearn.model_selection import train_test_split' to split train and test data
+        -using 'loss = nn.BCELoss()' which Creates a criterion that measures the Binary Cross Entropy between the target and the output
 
 
 Example 6= 
