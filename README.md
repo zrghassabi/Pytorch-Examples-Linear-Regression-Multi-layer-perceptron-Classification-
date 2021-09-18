@@ -35,7 +35,8 @@ Example 7= MLP which classifies each Voice sample as Man or Woman 's Voice
         -Each sample has 21 Attributes or features
         -using 'from sklearn.model_selection import train_test_split' to split train and test data
         -using 'loss = nn.BCELoss()' which Creates a criterion that measures the Binary Cross Entropy between the target and the output
-
+        - Activation function of output neuron is sigmoid, so yp is between 0 and 1, to find number of correct samples, sum(round(yp)==y_train) intead of sum(arg.max(yp)==y_train in previous example)
+ 
 
 Example 6= 
 
