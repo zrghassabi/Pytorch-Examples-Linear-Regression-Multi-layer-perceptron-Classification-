@@ -33,7 +33,7 @@ Example 7= MLP which classifies each Voice sample as Man or Woman 's Voice
         -Use Dataset https://www.apispreadsheets.com/datasets/119
         -Number of samples=3168
         -Each sample has 21 Attributes or features
-        
+        -using 'from sklearn.model_selection import train_test_split' to split train and test data
 
 
 Example 6= 
@@ -43,4 +43,7 @@ Example 6=
    6_2) creating Dataset class ( it includes __init__(self), __len__(self), __get_item__(self, index), using _get_item, you load big dataset on demand) to use in Dataloader . Detaloader will create mini-batches of Data, will shuffle data. 
 
    6_3) Building Dataloader for test data and evaluation of model with test data
+
+
+    
 
