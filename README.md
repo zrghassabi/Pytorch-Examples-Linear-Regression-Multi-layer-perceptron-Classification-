@@ -1,5 +1,6 @@
 # python_pytorch (Jupyter and pycharm) examples
 Based on Tutorial https://towardsdatascience.com/understanding-pytorch-with-an-example-a-step-by-step-tutorial-81fc5f8c4e8e
+                  https://github.com/moemen95/pytorch-project-template          
 
 
 Example1= Linear Regression using Numpy (run on CPU) and Matplotlib
@@ -23,11 +24,8 @@ Example 5= MLP (Multi Layer Perceptron)
       -compute Accuracy = num of correct classification/ total num of samples for Train, Validation and Test Data
       -pay attention why Accuracy for Test Data was computed after Loop of Training
       
-      
-      
-     
-      
-Example 7= MLP which classifies each Voice sample as Man or Woman 's Voice
+    
+Example 6= MLP which classifies each Voice sample as Man or Woman 's Voice
 
        Notes: 
         -Use Dataset https://www.apispreadsheets.com/datasets/119
@@ -37,8 +35,13 @@ Example 7= MLP which classifies each Voice sample as Man or Woman 's Voice
         -using 'loss = nn.BCELoss()' which Creates a criterion that measures the Binary Cross Entropy between the target and the output
         - Activation function of output neuron is sigmoid, so yp is between 0 and 1, to find number of correct samples, use sum(round(yp)==y_train) instead of sum(arg.max(yp)==y_train in previous example)
  
+ 
+ Example 7=
+ 
+ 
+ 
 
-Example 6= 
+Example 8= 
 
    6-1) Generalization of Training step ( A function that get Loss, Model, Optimizer and return train step or corresponding Loss, this function will be used in training loop
    
